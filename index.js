@@ -3,5 +3,5 @@ import { connectedDB } from "./src/config/db.js";
 
 connectedDB();
 
-app.listen(4000);
-console.log('SERVER ON PORT [',4000,']');
+app.listen(4050);
+console.log('SERVER ON PORT [',4050,']');
