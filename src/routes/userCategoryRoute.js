@@ -21,7 +21,7 @@ const router = Router();
  *               type_sexo:
  *                 type: string
  *                 description: Tipo de sexo del usuario.
- *                 example: masculino
+ *                 example: M
  *               age:
  *                 type: integer
  *                 description: Edad del usuario.

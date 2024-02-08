@@ -6,7 +6,7 @@ const findAll = async () =>{
 };
 
 const createUserDate = async (userType) =>{
-    const response = await pool.query('insert into user_category (type_sexo,age) values ($1,$2)',[userType.type_sexo,userType.age]);
+    const response = await pool.query('insert into entity.user_category (type_sexo,age) values ($1,$2)',[userType.type_sexo,userType.age]);
     return response;
 }
 

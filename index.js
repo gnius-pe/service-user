@@ -1,7 +1,8 @@
 import app from "./src/app.js";
 import { connectedDB } from "./src/config/db.js";
+import { PORT } from "./src/config/configuration.js";
 
 connectedDB();
 
-app.listen(4050);
-console.log('SERVER ON PORT [',4050,']');
+app.listen(PORT);
+console.log('SERVER ON PORT [',PORT,']');
